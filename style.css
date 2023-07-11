@@ -1,0 +1,167 @@
+/* external css */
+
+* {
+  /* has lowest priority but above inherited properties*/
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #444444;
+  font-family: sans-serif;
+  border-top: 5px solid #23fcfc;
+  /* position: relative; */
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+  margin-bottom: 60px;
+}
+
+.main-header a:link {
+  display: inline-block;
+  margin: 30px 10px;
+}
+
+.main-header a:link:last-child {
+  margin-right: 0;
+}
+
+article {
+  margin-bottom: 60px;
+}
+
+.post-header {
+  margin-bottom: 40px;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #23fcfc;
+  border-bottom: 5px solid #23fcfc;
+  padding: 50px 0px;
+  width: 500px;
+}
+
+h1,
+h2,
+h3 {
+  color: #23fcfc;
+}
+
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+/* footer p {
+  font-size: 16px;
+} */
+
+/* article header p {
+  font-style: italic;
+} */
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#copyright {
+  font-size: 12px;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.related-posts {
+  list-style: none;
+}
+
+/* pseudo selector */
+li:first-child {
+  font-weight: bold;
+}
+
+/* styling links  has to be in this order */
+a:link {
+  color: #23fcfc;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #23fcfc;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+a:active {
+  /* when being clicked */
+  background-color: brown;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

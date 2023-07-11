@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>The Basics of HTML</title>
+
+    <!-- internal css 
+    <style>
+      h1 {
+        color: pink;
+      }
+    </style>
+    -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- This is a comment -->
+
+    <div class="container">
+      <header class="main-header">
+        <h1>📘 The Code Magazine</h1>
+
+        <nav>
+          <a href="./blog.html"> Blog </a>
+          <a href="./challenge1.html">Challenges</a>
+          <a href="#">Flexbox</a>
+          <a href="#">CssGrid</a>
+        </nav>
+      </header>
+
+      <article>
+        <header class="post-header">
+          <h2>The Basic Language of the Web: HTML</h2>
+
+          <img
+            src="res/laura-jones.jpg"
+            alt="authors image"
+            width="50"
+            height="50"
+          />
+
+          <p id="author">
+            Posted by <strong>JJ</strong> on Monday, June 21st 2027
+          </p>
+          <img
+            class="post-img"
+            src="res/post-img.jpg"
+            alt="html code on screen"
+            width="500"
+            height="200"
+          />
+        </header>
+
+        <p>
+          All modern websites and web applications are built using three
+          <em>fundamental</em>
+          technologies: HTML, CSS and JavaScript. These are the languages of the
+          web.
+        </p>
+
+        <p>
+          In this post, let's focus on HTML. We will learn what HTML is all
+          about, and why you too should learn it.
+        </p>
+
+        <h3>What is HTML?</h3>
+        <p>
+          HTML stands for <strong>H</strong>yper<strong>T</strong>ext
+          <strong>M</strong>arkup <strong>L</strong>anguage. It's a markup
+          language that web developers use to structure and describe the content
+          of a webpage (not a programming language).
+        </p>
+        <p>
+          HTML consists of elements that describe different types of content:
+          paragraphs, links, headings, images, video, etc. Web browsers
+          understand HTML and render HTML code as websites.
+        </p>
+
+        <p>In HTML, each element is made up of 3 parts:</p>
+
+        <ol>
+          <li class="first-li">The opening tag</li>
+          <li>The closing tag</li>
+          <li>The actual element</li>
+          <li>
+            You can learn more at the
+            <a href="#" rel="" target="_blank"> MDN Web Docs.</a>
+          </li>
+        </ol>
+
+        <h3>Why you should learn HTML?</h3>
+        <p>
+          There are countless reasons for learning the fundamental language of
+          the web. Here are 5 of them:
+        </p>
+        <ul>
+          <li class="first-li">
+            To be able to use the fundamental web dev language
+          </li>
+          <li>
+            To hand-craft beautiful websites instead of relying on tools like
+            Worpress or Wix
+          </li>
+          <li>To build web applications</li>
+          <li>To impress friends To have fun 😃</li>
+        </ul>
+        <p>Hopefully you learned something new here. See you next time!</p>
+      </article>
+
+      <aside>
+        <h4>Related posts</h4>
+        <ul class="related-posts">
+          <li>
+            <img src="res/related-1.jpg" alt="" height="50" width="50" /><a
+              href="#"
+              >How to Learn Everything</a
+            >
+            <p class="related-author">By Jones</p>
+          </li>
+          <li>
+            <img src="res/related-2.jpg" alt="" height="50" width="50" /><a
+              href="#"
+              >Power of hunger</a
+            >
+            <p class="related-author">By Bones</p>
+          </li>
+          <li>
+            <img src="res/related-3.jpg" alt="" height="50" width="50" /><a
+              href="#"
+              >Sleep is awsome</a
+            >
+            <p class="related-author">By Cones</p>
+          </li>
+        </ul>
+      </aside>
+
+      <footer>
+        <p id="copyright">Copyright by God</p>
+      </footer>
+      <button>🥴 Like</button>
+    </div>
+  </body>
+</html>
